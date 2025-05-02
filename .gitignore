@@ -1,0 +1,14 @@
+# ignore Python virtual environment
+venv/
+
+# ignore recording data
+Recording/
+
+# ignore measurement folder
+Measurement0105/
+
+# ignore coated pitch dataset
+Coated_pitch1_0_4hz_v2/
+
+# ignore this MATLAB script
+MainPlotter.m
