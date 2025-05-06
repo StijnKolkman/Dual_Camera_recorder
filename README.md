@@ -24,15 +24,7 @@ This repository provides a complete pipeline for synchronized dual-camera record
 ## Prerequisites
 
 * **Git** (>=2.0)
-* **Python** (>=3.8) with `pip`
-* **tkinter** (GUI library; usually bundled with Python)
-* **Required Python packages:**
-
-  * `opencv-python`
-  * `numpy`
-  * `pandas`
-  * `matplotlib`
-  * `Pillow`
+* **Python** (>=3.8, <3.13) 
 
 > All dependencies are listed in `requirements.txt` and can be installed in one step during setup.
 
