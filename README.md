@@ -58,7 +58,7 @@ This repository provides a complete pipeline for synchronized dual-camera record
 ---
 
 ## Usage
-
+NOTE: make sure that in windows your 'system --> display --> scale' setting is 100%. Otherwise the shown camera frame doesn't fit
 ### Full pipeline (`main.py`)
 
 This will launch the GUI recorder, then automatically run tracking and trajectory reconstruction when recording finishes.
