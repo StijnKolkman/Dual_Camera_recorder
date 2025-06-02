@@ -200,7 +200,7 @@ class TrajectoryReconstructor:
         })
 
         # Generate the output file name based on the input file name
-        output_file_name = os.path.basename(self.csv_file_cam1)
+        #output_file_name = os.path.basename(self.csv_file_cam1)
         output_file_path = os.path.join(self.output_dir, f"{self.base_name}_Trajectory.csv")
 
         # Save the DataFrame to CSV

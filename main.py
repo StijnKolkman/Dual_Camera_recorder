@@ -26,6 +26,8 @@ from include.TrackerClassV3 import VideoTracker
 from include.TrajectoryClassV5 import TrajectoryReconstructor
 import tkinter as tk
 
+#from robot_ros import update_target
+#rlcpp.startnode()
 # Function to be called after the recording process is finished, to start the tracker and trajectory generator
 def on_recording_done():
     if hasattr(app, "recorded_file_names") and app.recorded_file_names:
@@ -48,6 +50,8 @@ def on_recording_done():
         traj_reconstructor.plot_velocity()
     else:
         print("No recordings were generated.")
+
+        #robot_ros.update_target(target_pos)  # Uncomment if using ROS to update the target position
 
 # Start the recorder GUI
 root = tk.Tk()
