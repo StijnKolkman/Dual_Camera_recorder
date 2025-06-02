@@ -169,6 +169,7 @@ class DualCameraApp:
 
     def toggle_recording(self):
         self.recording = not self.recording
+        self.timestamps = []
         filename = self.filename_entry.get().strip() or "recording"
         output_dir = os.path.join(os.getcwd(), filename)
         os.makedirs(output_dir, exist_ok=True)
