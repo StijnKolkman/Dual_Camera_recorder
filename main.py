@@ -21,7 +21,7 @@ Author: Stijn Kolkman (s.y.kolkman@student.utwente.nl)
 Date: April 2025
 """
 
-from include.RecorderClassV2 import DualCameraApp
+from include.RecorderClassV3 import DualCameraApp
 from include.TrackerClassV3 import VideoTracker
 from include.TrajectoryClassV5 import TrajectoryReconstructor
 import tkinter as tk
